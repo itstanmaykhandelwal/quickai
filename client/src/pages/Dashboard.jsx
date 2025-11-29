@@ -33,7 +33,7 @@ const Dashboard = () => {
                     <div className="text-slate-600">
                         <p className="text-sm">Active Plan</p>
                         <h2 className="text-xl font-semibold">
-                            <Protect plan="Premium" fallback="Free">Premium</Protect>
+                            <Protect plan="premium" fallback="Free">Premium</Protect>
                         </h2>
                     </div>
                     <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-[#FF61C5] to-[#9353EE] text-white flex justify-center items-center">

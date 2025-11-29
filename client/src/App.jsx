@@ -22,6 +22,7 @@ const App = () => {
 
     return (
         <div>
+            {/* <DebugSubscription/> */}
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/ai' element={<Layout/>}>
